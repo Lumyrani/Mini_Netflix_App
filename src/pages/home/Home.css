@@ -1,0 +1,51 @@
+.posterImage{
+    height: 400px;
+    padding: 50px;
+    margin:20px;
+    border: 50px;
+    padding-bottom: 20rem;
+    border-radius: 10px;
+   
+}
+
+.posterImage > img {
+    margin: auto;
+    display: block;
+    width: 50%;
+    padding: 20px; 
+    padding-bottom: 1rem;
+    padding-top :2rem;
+}
+
+
+
+.posterImage__title {
+    font-weight: 300;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+    padding: 20px;
+}
+
+.posterImage__runtime {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 30px;
+}
+
+.posterImage__type {
+
+    padding: 20px;
+}
+
+.posterImage__description {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+    padding: 20px;
+  
+}
