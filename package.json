@@ -21,7 +21,12 @@
     "watch": "npm-watch"
   },
   "watch": {
-    "build": "src/"
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx"
+    }
   },
   "eslintConfig": {
     "extends": [
